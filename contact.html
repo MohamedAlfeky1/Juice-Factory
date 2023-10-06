@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Enjoy the taste of fresh juices - Explore our wide range of natural and refreshing juices. Choose health and natural flavor with our company."
+    />
+    <title>National Food</title>
+    <link rel="icon" href="images/logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+    <link rel="stylesheet" href="css/styles-ltr.css" />
+  </head>
+  <body>
+    <div class="loading-container">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <span class="up"><i class="fa-solid fa-angles-up"></i></span>
+    <nav class="navbar navbar-expand-lg sticky-top bg-light text-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/logo.png" alt="logo" /></a
+        ><button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3"
+                aria-current="page"
+                data-text="home"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3"
+                data-text="products"
+                href="products.html"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" data-text="about" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3"
+                data-text="factory"
+                href="factory.html"
+                >Factory</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3"
+                data-text="career"
+                href="career.html"
+                >Career</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3 active"
+                data-text="contact"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div
+            id="lang"
+            data-text="lang"
+            class="language text-success ps-3 pe-3"
+          >
+            English
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="contact overflow-hidden">
+      <div
+        class="contact header position-relative d-flex justify-content-center align-items-center"
+      >
+        <span data-text="contactHeading" class="fw-bold fs-1 text-light"
+          >Get in Touch</span
+        >
+      </div>
+      <div class="contact-info pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-7 left">
+              <h2
+                data-text="leftHeading"
+                class="title mb-5 position-relative animate show-left"
+              >
+                Send us an Email
+              </h2>
+              <form action class="animate show-bottom">
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Username"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">+20</span
+                  ><input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your phone"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    aria-label="Recipient's username"
+                    aria-describedby="basic-addon2"
+                  /><span class="input-group-text" id="basic-addon2"
+                    >@example.com</span
+                  >
+                </div>
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group">
+                  <span class="input-group-text">Message</span
+                  ><textarea
+                    class="form-control"
+                    aria-label="With textarea"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+                <button
+                  data-text="sendData"
+                  type="submit"
+                  class="rounded-pill w-100 p-2 mt-4 send"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+            <div class="col-12 col-md-5 mt-sm-5 right animate show-right">
+              <div class="find-us mb-2">
+                <h5 data-text="findUs">Find Us:</h5>
+                <span class="text-black-50">Egypt</span>
+              </div>
+              <div class="call-us mb-2">
+                <h5 data-text="callUs">call Us:</h5>
+                <span class="text-black-50">Our Number</span>
+              </div>
+              <div class="email mb-2">
+                <h5 data-text="emailAdress">Email Address:</h5>
+                <span class="text-black-50">mohamedalfekyy4@gmail.com</span>
+              </div>
+              <div class="location">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71612.53642965117!2d31.239944803500723!3d30.114206151894972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2z2KfZhNmC2KfZh9ix2KnYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1696537092309!5m2!1sar!2seg"
+                  width="315"
+                  height="215"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="pt-5 pb-3 text-center text-md-start bg-dark text-light">
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col-md-6 info">
+            <h4 data-text="footerCompany" class="mb-3">Juice Factory</h4>
+            <p data-text="footerSummary1" class="company-p mb-2">
+              Our Juice Factory produces a variety of foodstuffs and owns a
+              distinguished package of juices with unique flavors of a special
+              character
+            </p>
+            <p data-text="footerSummary2">
+              Our goal is to fulfill the consumer’s desire for the quality and
+              safety of food products
+            </p>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-4 lh-lg pt-5 pt-md-0 contact">
+            <h4 data-text="footerContact">Contact Us</h4>
+            <span data-text="footerPhone" class="d-block"
+              >Phone: Our Number</span
+            ><span data-text="footerLocation" class="d-block"
+              >Location: Our Location</span
+            ><span data-text="footerEmail" class="d-block"
+              >Email: Our Email</span
+            >
+            <div class="d-block">
+              <span data-text="footerFollow">Follow Us</span
+              ><a
+                data-text="footerLink"
+                href="https://www.facebook.com/Foodnational"
+                class="text-warning"
+                >Our Page</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right text-center">
+        <div class="copyright text-center">
+          <div>
+            Copyrights &copy; 2023 All Rights Reserved by -<span
+              class="text-warning"
+              >Juice Factory</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

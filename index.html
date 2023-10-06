@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Enjoy the taste of fresh juices - Explore our wide range of natural and refreshing juices. Choose health and natural flavor with our company."
+    />
+    <title>National Food</title>
+    <link rel="icon" href="images/logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles-ltr.css" />
+  </head>
+  <body>
+    <div class="loading-container">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <span class="up"><i class="fa-solid fa-angles-up"></i></span>
+    <nav class="navbar navbar-expand-lg sticky-top bg-light text-dark">
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="index.html"
+          aria-label="National Foods logo"
+          ><img src="images/logo.png" alt="logo" /></a
+        ><button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3 active"
+                aria-current="page"
+                data-text="home"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3"
+                data-text="products"
+                href="products.html"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" data-text="about" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3"
+                data-text="factory"
+                href="factory.html"
+                >Factory</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3"
+                data-text="career"
+                href="career.html"
+                >Career</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3"
+                data-text="contact"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div
+            id="lang"
+            data-text="lang"
+            class="language text-success ps-3 pe-3"
+          >
+            English
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide position-relative"
+      data-bs-ride="carousel"
+      data-bs-interval="5000"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button
+        ><button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button
+        ><button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/back-1.webp"
+            class="d-block vw-100"
+            alt="First Slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/back-2.webp"
+            class="d-block vw-100"
+            alt="Second Slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/back-3.webp"
+            class="d-block vw-100"
+            alt="Third Slide"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev control"
+        aria-label="prev slide button"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon"
+          aria-hidden="true"
+        ></span></button
+      ><button
+        class="carousel-control-next control"
+        aria-label="next slide button"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="summary pt-5 pb-5 position-relative overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div
+            class="company-img position-relative col-12 col-md-5 text-center text-md-start animate show-left"
+          >
+            <img
+              src="images/care.webp"
+              alt="company img"
+              class="img-fluid position-relative"
+              loading="lazy"
+            />
+          </div>
+          <div
+            class="company-info text-light col-12 col-md-7 mt-4 mt-md-0 text-center text-md-start lh-lg animate show-right"
+          >
+            <h2 data-text="s1Title">Experience and Innovation</h2>
+            <p data-text="s1InfoP1" class="fs-6 mt-4">
+              Our juice factory isn't just a place of production it's a hub of
+              innovation. We continuously explore new flavors, packaging, and
+              techniques to exceed expectations and provide you with an
+              unforgettable juice experience. Join us on this exciting journey.
+            </p>
+            <p data-text="s1InfoP2" class="fs-6 mt-3">
+              Discover our world of flavors that cater to every taste, as our
+              team of juice experts and flavor enthusiasts work diligently to
+              present a range of refreshing flavors that invigorate your senses.
+            </p>
+            <p data-text="s1InfoP3" class="fs-6 mt-3">
+              Whether you're looking for a refreshing morning beverage or a
+              revitalizing accompaniment to your meals, our juices are the
+              perfect choice.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products pt-5 pb-5 mt-5 overflow-hidden position-relative">
+      <div class="wavy-line position-absolute">
+        <img
+          src="images/wavy-line.svg"
+          alt="wavy line"
+          class="animate scaleY"
+        />
+      </div>
+      <div class="container pt-5">
+        <div
+          class="main-title pt-5 text-center position-relative animate show-bottom"
+        >
+          <span
+            data-text="s2Title"
+            class="position-absolute text-uppercase behind"
+            >Our Products</span
+          ><span
+            data-text="s2heading"
+            class="position-absolute front bottom-0 text-uppercase"
+            >Taste In Every Sip</span
+          ><i class="fa-solid fa-apple-whole position-absolute apple"></i>
+        </div>
+        <div class="owl-carousel owl-theme mt-5 pt-4 animate show-bottom">
+          <div class="item text-center">
+            <div
+              class="card d-flex justify-content-center align-items-center p-3"
+            >
+              <img
+                src="images/product-1.webp"
+                alt="Blog post"
+                class="card-img-top rounded-circle mb-4"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a
+                    data-text="s2Show"
+                    href="products.html"
+                    class="btn btn-success"
+                    >Show More</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="item text-center">
+            <div
+              class="card d-flex justify-content-center align-items-center p-3"
+            >
+              <img
+                src="images/product-2.webp"
+                alt="Blog post"
+                class="card-img-top rounded-circle mb-4"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a
+                    data-text="s2Show"
+                    href="products.html"
+                    class="btn btn-success"
+                    >Show More</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="item text-center">
+            <div
+              class="card d-flex justify-content-center align-items-center p-3"
+            >
+              <img
+                src="images/product-3.webp"
+                alt="Blog post"
+                class="card-img-top rounded-circle mb-4"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a
+                    data-text="s2Show"
+                    href="products.html"
+                    class="btn btn-success"
+                    >Show More</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="item text-center">
+            <div
+              class="card d-flex justify-content-center align-items-center p-3"
+            >
+              <img
+                src="images/product-5.webp"
+                alt="Blog post"
+                class="card-img-top rounded-circle mb-4"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a
+                    data-text="s2Show"
+                    href="products.html"
+                    class="btn btn-success"
+                    >Show More</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="item text-center">
+            <div
+              class="card d-flex justify-content-center align-items-center p-3"
+            >
+              <img
+                src="images/product-1.webp"
+                alt="Blog post"
+                class="card-img-top rounded-circle mb-4"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a
+                    data-text="s2Show"
+                    href="products.html"
+                    class="btn btn-success"
+                    >Show More</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg
+      class="team-top-wave"
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:svgjs="http://svgjs.dev/svgjs"
+      viewBox="0 0 2400 800"
+      opacity="1"
+    >
+      <g fill="#19283f" transform="matrix(1,0,0,1,0,-60.47625732421875)">
+        <path
+          d="M 0 320.38662305386765 Q 1200 450 1200 318.42554180603423 Q 2400 450 2400 321.4702940510786 L 2400 800 L 0 800 L 0 316.95250824296176 Z"
+          transform="matrix(1,0,0,1,0,51)"
+          opacity="0.05"
+        ></path>
+        <path
+          d="M 0 320.38662305386765 Q 1200 450 1200 318.42554180603423 Q 2400 450 2400 321.4702940510786 L 2400 800 L 0 800 L 0 316.95250824296176 Z"
+          transform="matrix(1,0,0,1,0,102)"
+          opacity="0.53"
+        ></path>
+        <path
+          d="M 0 320.38662305386765 Q 1200 450 1200 318.42554180603423 Q 2400 450 2400 321.4702940510786 L 2400 800 L 0 800 L 0 316.95250824296176 Z"
+          transform="matrix(1,0,0,1,0,153)"
+          opacity="1.00"
+        ></path>
+      </g>
+    </svg>
+    <div class="team pt-5 pb-5 overflow-hidden position-relative">
+      <div class="container">
+        <h2
+          data-text="s3title"
+          class="position-relative mb-5 text-center text-uppercase fw-semibold animate show-bottom"
+        >
+          Meet Our Team
+        </h2>
+        <div
+          class="ts-boxs d-flex justify-content-between align-items-center position-relative pt-5 animate show-top"
+        >
+          <div class="ts-box">
+            <div class="box-img">
+              <img
+                src="images/team-4.webp"
+                alt="box image"
+                class="img-fluid rounded-circle"
+                loading="lazy"
+              />
+            </div>
+            <div class="box-info pb-4">
+              <span
+                data-text="s3name1"
+                class="d-block text-center fs-4 mt-3 mb-0"
+                >Test Name</span
+              ><span
+                data-text="s3name1job"
+                class="d-block text-center text-black-50"
+                >job Decsription</span
+              >
+              <div
+                class="social-icons d-flex justify-content-center align-items-center gap-3 mt-3 text-black-50"
+              >
+                <i class="fa-brands fa-facebook facebook"></i
+                ><i class="fa-brands fa-square-twitter twitter"></i
+                ><i class="fa-brands fa-linkedin linkedin"></i>
+              </div>
+            </div>
+          </div>
+          <div class="ts-box">
+            <div class="box-img">
+              <img
+                src="images/team-4.webp"
+                alt="box image"
+                class="img-fluid rounded-circle"
+                loading="lazy"
+              />
+            </div>
+            <div class="box-info pb-4">
+              <span
+                data-text="s3name2"
+                class="d-block text-center fs-4 mt-3 mb-0"
+                >Test Name</span
+              ><span
+                data-text="s3name2job"
+                class="d-block text-center text-black-50"
+                >CEO Of Company</span
+              >
+              <div
+                class="social-icons d-flex justify-content-center align-items-center gap-3 mt-3 text-black-50"
+              >
+                <i class="fa-brands fa-facebook facebook"></i
+                ><i class="fa-brands fa-square-twitter twitter"></i
+                ><i class="fa-brands fa-linkedin linkedin"></i>
+              </div>
+            </div>
+          </div>
+          <div class="ts-box">
+            <div class="box-img">
+              <img
+                src="images/team-4.webp"
+                alt="box image"
+                class="img-fluid rounded-circle"
+                loading="lazy"
+              />
+            </div>
+            <div class="box-info pb-4">
+              <span
+                data-text="s3name3"
+                class="d-block text-center fs-4 mt-3 mb-0"
+                >Test Name</span
+              ><span
+                data-text="s3name3job"
+                class="d-block text-center text-black-50"
+                >CEO Of Company</span
+              >
+              <div
+                class="social-icons d-flex justify-content-center align-items-center gap-3 mt-3 text-black-50"
+              >
+                <i class="fa-brands fa-facebook facebook"></i
+                ><i class="fa-brands fa-square-twitter twitter"></i
+                ><i class="fa-brands fa-linkedin linkedin"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg
+      class="team-bottom-wave"
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:svgjs="http://svgjs.dev/svgjs"
+      viewBox="0 0 2400 800"
+      opacity="1"
+    >
+      <g fill="#19283f" transform="matrix(1,0,0,1,0,-60.47625732421875)">
+        <path
+          d="M 0 320.38662305386765 Q 1200 450 1200 318.42554180603423 Q 2400 450 2400 321.4702940510786 L 2400 800 L 0 800 L 0 316.95250824296176 Z"
+          transform="matrix(1,0,0,1,0,51)"
+          opacity="0.05"
+        ></path>
+        <path
+          d="M 0 320.38662305386765 Q 1200 450 1200 318.42554180603423 Q 2400 450 2400 321.4702940510786 L 2400 800 L 0 800 L 0 316.95250824296176 Z"
+          transform="matrix(1,0,0,1,0,102)"
+          opacity="0.53"
+        ></path>
+        <path
+          d="M 0 320.38662305386765 Q 1200 450 1200 318.42554180603423 Q 2400 450 2400 321.4702940510786 L 2400 800 L 0 800 L 0 316.95250824296176 Z"
+          transform="matrix(1,0,0,1,0,153)"
+          opacity="1.00"
+        ></path>
+      </g>
+    </svg>
+    <div class="short-timeline pb-5">
+      <div class="main-title pb-5 text-center position-relative">
+        <span
+          data-text="s4title"
+          class="position-absolute text-uppercase behind"
+          >Our History</span
+        ><span
+          data-text="s4heading"
+          class="position-absolute front bottom-0 text-uppercase"
+          >From Dreams to Reality</span
+        ><i class="fa-solid fa-apple-whole position-absolute apple"></i>
+      </div>
+      <div class="timeline pt-5 pb-5">
+        <div class="container">
+          <div class="timeline-content">
+            <div class="line animate scaleY"></div>
+            <div class="year animate show-top">2023</div>
+            <div class="left animate show-left">
+              <div class="content">
+                <p data-text="info">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+                  architecto, quidem quod laudantium, voluptatum tenetur
+                </p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right animate show-right">
+              <div class="content">
+                <p data-text="info">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+                  architecto, quidem quod laudantium, voluptatum tenetur
+                </p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="year animate show-top">2022</div>
+            <div class="left animate show-left">
+              <div class="content">
+                <p data-text="info">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+                  architecto, quidem quod laudantium, voluptatum tenetur
+                </p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="left animate show-left">
+              <div class="content">
+                <p data-text="info">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+                  architecto, quidem quod laudantium, voluptatum tenetur
+                </p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="year animate show-top">2020</div>
+            <div class="right animate show-right">
+              <div class="content">
+                <p data-text="info">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+                  architecto, quidem quod laudantium, voluptatum tenetur
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            data-text="s4show"
+            href="factory.html"
+            class="text-light text-center show-more animate show-bottom"
+            style="transition-delay: 0.7s"
+            >Show more</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="subscribe pt-5 pb-5 text-center txt-md-start">
+      <div class="container">
+        <form class="row align-items-center">
+          <div class="col-lg-3">
+            <div data-text="s5subscribe" class="fw-bold fs-5 mb-3">
+              Subscribe to our Newsletter:
+            </div>
+          </div>
+          <div class="col-lg-7 mb-3">
+            <input
+              class="w-100 text-light p-2 bg-transparent"
+              type="email"
+              placeholder="Enter Your Email Address"
+            />
+          </div>
+          <div class="col-lg-2">
+            <button
+              data-text="s5submit"
+              type="submit"
+              class="btn bg-dark rounded-pill text-warning"
+            >
+              Subscribe
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="pt-5 pb-3 text-center text-md-start bg-dark text-light">
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col-md-6 info">
+            <h4 data-text="footerCompany" class="mb-3">Juice Factory</h4>
+            <p data-text="footerSummary1" class="company-p mb-2">
+              Our Juice Factory produces a variety of foodstuffs and owns a
+              distinguished package of juices with unique flavors of a special
+              character
+            </p>
+            <p data-text="footerSummary2">
+              Our goal is to fulfill the consumer’s desire for the quality and
+              safety of food products
+            </p>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-4 lh-lg pt-5 pt-md-0 contact">
+            <h4 data-text="footerContact">Contact Us</h4>
+            <span data-text="footerPhone" class="d-block"
+              >Phone: Our Number</span
+            ><span data-text="footerLocation" class="d-block"
+              >Location: Our Location</span
+            ><span data-text="footerEmail" class="d-block"
+              >Email: Our Email</span
+            >
+            <div class="d-block">
+              <span data-text="footerFollow">Follow Us</span
+              ><a
+                data-text="footerLink"
+                href="https://www.facebook.com/Foodnational"
+                class="text-warning"
+                >Our Page</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right text-center">
+        <div class="copyright text-center">
+          <div>
+            Copyrights &copy; 2023 All Rights Reserved by -<span
+              class="text-warning"
+              >Juice Factory</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(".products .owl-carousel").owlCarousel({
+        nav: 1,
+        dots: 1,
+        autoplayHoverPause: 0,
+        responsive: {
+          0: { items: 1 },
+          575: { items: 2 },
+          767: { items: 3 },
+          991: { items: 4 },
+        },
+      });
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
